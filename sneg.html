@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Снег идёт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('sneg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 70%;
+            background: rgba(25, 25, 112, 0.8); /* белый прозрачный фон */
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 50%;
+            border-radius: 10px;
+        }
+        .text {
+            flex: 1;
+            padding-left: 20px;
+        }
+        h2 {
+            color: #FFD700; /* Золотой цвет заголовка */
+            text-align: left;
+        }
+        .poem-box {
+            border: 2px solid white;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            font-size: 18px;
+            text-align: left;
+        }
+        a.back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        a.back:hover {
+            background: #FFD700;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="sneg1.jpg" alt="Снег идёт">
+        </div>
+        <div class="text">
+            <h2>Снег идёт</h2>
+            <div class="poem-box">
+                <p>
+                    Снег идет, снег идет.
+                    К белым звездочкам в буране<br>
+                    Тянутся цветы герани<br>
+                    За оконный переплет.<br>
+                    Снег идет, и всё в смятеньи,<br>
+                    Всё пускается в полет,-<br>
+                    Черной лестницы ступени,<br>
+                    Перекрестка поворот.<br>
+                    Снег идет, снег идет,<br>
+                    Словно падают не хлопья,<br>
+                    А в заплатанном салопе<br>
+                    Сходит наземь небосвод.<br>
+                </p>
+            </div>
+            <a href="index.html" class="back">На главную</a>
+        </div>
+    </div>
+</body>
+</html>
